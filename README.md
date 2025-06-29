@@ -92,3 +92,9 @@ module tb_fir_filter;
         $finish;
     end
 endmodule
+
+OUTPUT-
+![Image](https://github.com/user-attachments/assets/77f9a7f3-ac3a-44b9-9e3a-a512b3e7e484)
+
+
+The 4-tap FIR filter design performs accurately, producing correct outputs that match theoretical values after an initial 3-cycle delay. It processes one input per clock cycle and generates one output per cycle, ensuring high throughput. The reset and clock work properly, and timing is well-synchronized. Simulation results confirm smooth and correct output behavior. The design is resource-efficient, scalable, and suitable for real-time DSP applications. Overall, the filter is functionally correct, fast, and ready for hardware implementation.
